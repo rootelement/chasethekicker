@@ -1,0 +1,15 @@
+button, .button
+  +border-radius(4px)
+  +adjust-font-size-to(18px)
+  background-color: $team-color-primary
+  +background-image(linear-gradient(lighten($team-color-primary, 20%), $team-color-primary))
+  width: 124px
+  border: darken($team-color-primary, 5%) 1px solid
+  color: $team-color-secondary !important
+  +inline-block
+  text-align: center
+  text-decoration: none
+  +adjust-font-size-to(24px)
+  +adjust-leading-to(8)
+  &:hover
+    +background-image(linear-gradient(lighten($team-color-primary,5%), lighten($team-color-primary, 10%)))

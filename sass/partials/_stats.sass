@@ -1,0 +1,88 @@
+.stats-current
+  position: absolute
+  right: 0
+  +margin-leader(17.3)
+  +float(right)
+  z-index: 2
+  li
+    +float(left)
+    background-color: rgba($team-color-secondary, .1)
+    margin-left: 1em
+    padding: 10px
+    color: rgba($team-color-secondary, .3)
+    
+    &.header
+      background-color: transparent
+      +adjust-font-size-to(24px)
+      +adjust-leading-to(3.5)
+      text-align: right
+    .label
+      +float(left)
+      +adjust-font-size-to(16px)
+      +adjust-leading-to(4)
+    .result
+      +float(right)
+      +adjust-font-size-to(42px)
+      +adjust-leading-to(3.5)
+      margin-left: 5px
+    &:hover
+      color: rgba($team-color-secondary, 1)
+      +transition-property(color)
+      +transition-timing-function(ease-in-out)
+      +transition-duration(.2s)
+      cursor: default
+    +clearfix
+.no-backgroundsize
+  .stats-current
+    li
+      background-color: #333
+      color: #666
+    &.header
+      background-color: transparent 
+.stats-past
+  position: absolute
+  right: 40px
+  bottom: 43px
+  color: #fff
+  z-index: 2
+  +float(right)
+  li
+    +float(left)
+    margin-left: 75px
+    width: auto
+    +clearfix
+    .result
+      +adjust-font-size-to(15px)
+      +adjust-leading-to(5)
+      +float(right)
+      color: rgba($team-color-secondary, .4)
+    &:hover
+      .result
+        color: #fff
+        +transition-property(color)
+        +transition-timing-function(ease-in-out)
+        +transition-duration(.2s)
+        cursor: default
+    .label
+      +float(left)
+      +adjust-font-size-to(42px)
+      +adjust-leading-to(3.5)
+      margin-right: 5px
+#stats
+  div[class*="col-"]
+    // background-color: rgba(lighten($team-color-primary, 50%), .1)
+    // border: lighten($team-color-primary, 50%) 1px solid
+    background-color: $team-color-primary
+    +background-image(linear-gradient(lighten($team-color-primary, 10%), $team-color-primary))
+    +border-radius(4px)
+    text-align: center
+    +padding-leader(2)
+    +padding-trailer(2)
+    +adjust-font-size-to(48px)
+    .label, .result
+      +text-shadow(1px 1px 0 darken($team-color-primary, 10%))
+    .label
+      color: $team-color-secondary
+    .result
+      color: $team-color-secondary !important
+  

@@ -1,0 +1,32 @@
+header
+  height: 499px
+  position: relative
+  img.feature
+    position: absolute
+    top: 3px
+    left: 10px
+    z-index: 1
+  .logo
+    position: absolute
+    top: 37px
+    left: 0
+    z-index: 2
+    &:hover
+      +opacity(.8)
+      +transition-property(opacity)
+      +transition-timing-function(ease-in-out)
+      +transition-duration(.2s)
+  h1
+    position: absolute
+    right: 40px
+    text-align: right
+    z-index: 2
+    +margin-leader(8)
+    +adjust-font-size-to(86px)
+    +adjust-leading-to(6)
+    +text-shadow
+    color: #fff
+    em
+      +adjust-font-size-to(50.5px, 1, 90px)
+      +adjust-leading-to(1)
+      display: block

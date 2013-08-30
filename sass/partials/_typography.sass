@@ -1,0 +1,61 @@
+$base-font-size: 16px
+$base-line-height: 4px
++establish-baseline
+$default-border-style: solid
+
+$default-text-shadow-color: darken($team-color-primary, 50%)
+$default-text-shadow-blur: 0
+$default-text-shadow-v-offset: 2px
+$default-text-shadow-h-offset: 2px
+
++font-face("Impact", font-files("/fonts/Impact.ttf","/fonts/impact.otf"))
+ 
+
+#{headings(all)}
+  +margin-trailer(2)
+#{headings(all)}, nav, .stats-current, .stats-past, button, .button, th, #stats .cols
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif
+  font-weight: normal
+html
+  font-family: arial, helvetica, sans-serif
+a
+  //normal, hover, active, visited, focus
+  +link-colors($link-color, $link-hover-color, $link-active-color, $link-visited-color, $link-focus-color) 
+#main-content
+  #{headings(all)}
+    color: $team-color-primary
+    em
+      color: lighten($team-color-primary, 30%)
+  h1
+    +adjust-font-size-to(30px, 12)
+  .call-out
+    text-align: center
+    color: $text-color-secondary
+    width: 100%
+    height: auto
+    +adjust-font-size-to(75px, 16)
+    +borders($context: "split")
+  h2
+    +adjust-font-size-to(24px, 12)
+  h3
+    +adjust-font-size-to(18px, 12)
+    +margin-trailer(0)
+    +borders($context: "right")
+  h4
+    +adjust-font-size-to(16px, 12)
+  h5
+    +adjust-font-size-to(14px, 12)
+  p, li, td
+    +adjust-font-size-to(14px, 6)
+  p, ul, ol, table, dl
+    +margin-trailer(4)
+    color: $text-color-primary
+    strong
+      color: darken($text-color-primary, 30%)
+      font-weight: bold
+#main-content, footer
+  a
+    //normal, hover, active, visited, focus
+    +link-colors($link-color, $link-hover-color, $link-active-color, $team-color-primary, $link-focus-color)
+  
+  

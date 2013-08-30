@@ -1,29 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Chase the Kicker</title>
-  <link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
-  <style>
-    html{background-color: #B94102; font-family: 'Exo', sans-serif; color: #fff; text-align: center;}
-    * {padding: 0;margin: 0;}
-    .center {
-       width: 900px;
-       height: 200px;
-       position: absolute;
-       left: 50%;
-       top: 50%; 
-       margin-left: -450px;
-       margin-top: -100px;
-    }
-    h1{font-weight: normal;font-size: 60px;}
-  </style>
-</head>
-<body>
-  <div class="center">
-    <h1>&#10026; Chase The Kicker &#10026;</h1>
-    <p>Coming soon</p>
+<?php include('includes/head.php'); ?>
+  <div id="main-content">
+    <div class="primary-content">
+      <h2 class="call-out">GPA 3.2</h2>
+      <img class="pull-right full-border" src="images/chase-briley-field-goal.jpg" alt="Chase Briley Field Goal">
+      <p>My name is <strong>Chase Briley</strong>. I haven't always been a kicker. I spent most of my time growing up 
+      as a soccer player. Clearing balls on defense and taking corner kicks helped prepare me for another adventure. When I entered high school, soccer was no 
+      longer available. I was given the chance to try out for kicker on the football team. It was a blessing in disguise. I love this game. 
+      Here are some of my <a href="videos.php">kicking videos</a>.</p>
+    </div>
+    <div class="secondary-content">
+      <h3>Weekly Highlights</h3>
+      <iframe width="390" height="219" src="//www.youtube.com/embed/RNqWUb0_B9U" frameborder="0" allowfullscreen></iframe>
+      <?php include('includes/action-items.php') ?>
+    </div>
   </div>
-  
-</body>
-</html>
+<?php include('includes/footer.php') ?>

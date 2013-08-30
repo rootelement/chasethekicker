@@ -1,0 +1,73 @@
+$grids: 24
+$gutters: 1/3
+
+.container
+  // +background-grid
+  +grid-span(24, 1)
+  width: 950px
+  margin: 0 auto
+  min-height: 100%
+  float: none
+body, html
+  height: 100%
+  margin: 0
+  padding: 0
+body
+  background: url(../images/ui/football-field.png) center 5px no-repeat, url(../images/ui/header-bg.png) top left repeat-x
+.no-backgroundsize
+  body
+    background: #fff url(../images/ui/header-bg.png) top left repeat-x
+
+#main-content
+  +clearfix
+  +margin-leader
+.cols
+  +clearfix
+  +padding-trailer
+  border-bottom: $text-color-secondary 1px solid 
+  +margin-trailer
+  div
+    +box-sizing(border-box)
+#videos
+  .col-1
+    +grid-span(8,1)
+  .col-2
+    +grid-span(8,9)
+  .col-3
+    +grid-span(8,17)
+#stats
+  .col-1
+    +grid-span(6,1)
+  .col-2
+    +grid-span(6,7)
+  .col-3
+    +grid-span(6,13)
+  .col-4
+    +grid-span(6,19)
+.primary-content
+  +grid-span(13,1)
+  overflow: hidden
+  +clearfix
+  +padding-trailer(10)
+  +trailing-border
+  border:
+    color: $text-color-secondary
+.secondary-content
+  +grid-span(10,15)
+  overflow: hidden
+  .action-items
+    +margin-leader(.5)
+footer
+  +grid-span(24,1)
+  +margin-leader(2)
+  +margin-trailer(2)
+  +clearfix
+  +padding-trailer(4)
+  .email
+    +grid-span(7,1)
+  .twitter
+    +grid-span(8,8)
+  .copyright
+    +grid-span(10,15)
+    text-align: right
+

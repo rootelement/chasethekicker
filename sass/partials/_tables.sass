@@ -1,0 +1,32 @@
+table
+  border-collapse: collapse
+  width: 100%
+  td, th
+    border-bottom: lighten($team-color-primary, 50%) 1px solid 
+    padding: 5px
+  th
+    color: $team-color-secondary
+    background: $team-color-primary
+    +background-image(linear-gradient(lighten($team-color-primary, 20%), $team-color-primary))
+    +adjust-font-size-to(20px)
+    +adjust-leading-to(6)
+  tr:nth-child(2n)
+    td
+      background-color: rgba(lighten($team-color-primary, 40%), .1)
+#stats
+  th
+    text-align: center
+    &:first-child
+      text-align: left
+  td
+    padding: 15px
+    text-align: center
+    &:first-child
+      text-align: left
+    color: $text-color-primary
+  tfoot
+    td
+      border-top: $team-color-primary 1px solid
+      font-weight: bold
+      border-bottom: $team-color-primary 3px solid
+      color: darken($text-color-primary, 20%)

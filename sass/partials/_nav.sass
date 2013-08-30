@@ -1,0 +1,26 @@
+nav
+  position: absolute
+  +margin-leader(8)
+  right: 0
+  border-bottom: rgba($team-color-secondary, .1) 1px solid
+  z-index: 1
+  width: 100%
+  ul
+    margin: 0
+    padding: 0
+    +float(right)
+  li, a
+    +float(left)
+    margin-left: .5em
+  a
+    display: block
+    color: #fff
+    text-decoration: none
+    &.active
+      color: $team-color-primary !important
+      pointer-events: none
+    &:hover
+      +transition-property(color)
+      +transition-timing-function(ease-in-out)
+      +transition-duration(.2s)
+    +adjust-font-size-to(30px)

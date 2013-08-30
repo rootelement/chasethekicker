@@ -1,0 +1,36 @@
+=borders($context: false)
+  @if $context == "split"
+    position: relative 
+    clear: both
+    height: auto
+    &:before, &:after
+      position: absolute
+      background-color: $text-color-secondary 
+      width: 50%
+      content: ""
+      top: 0
+      bottom: 0
+      margin: auto
+      height: 1px
+      z-index: 0
+    &:before
+      left: -23%
+    &:after
+      right: -23%
+  
+  @if $context == "right"
+    position: relative 
+    clear: both
+    height: auto
+    &:after
+      position: absolute
+      background-color: $team-color-primary 
+      width: 100%
+      content: ""
+      top: 0
+      bottom: 0
+      margin: auto
+      height: 1px
+      z-index: 0
+    &:after
+      right: -40%
