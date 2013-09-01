@@ -1,6 +1,22 @@
 <?php include('includes/head.php'); ?>
   <div id="main-content">
     <h2 class="call-out">Kicking Vids</h2>
+    <div class="weekly-highlights">
+      <div class="vid">
+        <iframe width="480" height="270" src="//www.youtube.com/embed/videoseries?list=PLidCjvFoClTdM4UIfQo_hTkhP74kmQcXz" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="write-up">
+        <h2>Highlights: <em>8/31/2013 Scrimmage</em></h2>
+        <p>In this highlight playlist, you can see the following:</p>
+        <ul>
+          <li>37 yard field goal from the left hash</li>
+          <li>41 yard field goal from the right hash</li>
+          <li>Several extra points</li>
+          <li>A couple of punts</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
     <h2 id="kickoffs">Kickoffs - <em>70+ Yards</em></h2>
     <div class="cols">
       <div class="col-1">

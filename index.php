@@ -9,7 +9,7 @@
       Here are some of my <a href="videos.php">kicking videos</a>.</p>
     </div>
     <div class="secondary-content">
-      <h3>Weekly Highlights</h3>
+      <h3>Weekly Highlights <em>Playlist</em></h3>
       <iframe width="390" height="219" src="//www.youtube.com/embed/videoseries?list=PLidCjvFoClTdM4UIfQo_hTkhP74kmQcXz" frameborder="0" allowfullscreen></iframe>
       <?php include('includes/action-items.php') ?>
     </div>

@@ -26,6 +26,7 @@ a
     color: $team-color-primary
     em
       color: lighten($team-color-primary, 30%)
+      font-style: normal
   h1
     +adjust-font-size-to(30px, 12)
   .call-out
@@ -53,6 +54,10 @@ a
     strong
       color: darken($text-color-primary, 30%)
       font-weight: bold
+  ul
+    margin-left: 1em
+    li
+      list-style: disc
 #main-content, footer
   a
     //normal, hover, active, visited, focus
