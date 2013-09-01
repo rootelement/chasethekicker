@@ -10,7 +10,7 @@
     </div>
     <div class="secondary-content">
       <h3>Weekly Highlights</h3>
-      <iframe width="390" height="219" src="//www.youtube.com/embed/RNqWUb0_B9U" frameborder="0" allowfullscreen></iframe>
+      <iframe width="390" height="219" src="//www.youtube.com/embed/videoseries?list=PLidCjvFoClTdM4UIfQo_hTkhP74kmQcXz" frameborder="0" allowfullscreen></iframe>
       <?php include('includes/action-items.php') ?>
     </div>
   </div>
