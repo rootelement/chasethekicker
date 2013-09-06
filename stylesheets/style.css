@@ -833,6 +833,7 @@ table td, table th {
 /* line 7, ../sass/partials/_tables.sass */
 table th {
   color: white;
+  text-shadow: 1px 1px 0 #8e3d04;
   background: #c05205;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fa8431), color-stop(100%, #c05205));
   background-image: -webkit-linear-gradient(#fa8431, #c05205);
@@ -843,30 +844,30 @@ table th {
   line-height: 1.2em;
   line-height: 1.5em;
 }
-/* line 14, ../sass/partials/_tables.sass */
+/* line 15, ../sass/partials/_tables.sass */
 table tr:nth-child(2n) td {
   background-color: rgba(252, 191, 149, 0.1);
 }
 
-/* line 17, ../sass/partials/_tables.sass */
+/* line 18, ../sass/partials/_tables.sass */
 #stats th {
   text-align: center;
 }
-/* line 19, ../sass/partials/_tables.sass */
+/* line 20, ../sass/partials/_tables.sass */
 #stats th:first-child, #stats th.opponent, #stats th.location {
   text-align: left;
 }
-/* line 21, ../sass/partials/_tables.sass */
+/* line 22, ../sass/partials/_tables.sass */
 #stats td {
   padding: 15px;
   text-align: center;
   color: #777777;
 }
-/* line 24, ../sass/partials/_tables.sass */
+/* line 25, ../sass/partials/_tables.sass */
 #stats td:first-child, #stats td.opponent, #stats td.location {
   text-align: left;
 }
-/* line 28, ../sass/partials/_tables.sass */
+/* line 29, ../sass/partials/_tables.sass */
 #stats tfoot td {
   border-top: #c05205 1px solid;
   font-weight: bold;
