@@ -3,6 +3,22 @@
     <h2 class="call-out">Kicking Vids</h2>
     <div class="weekly-highlights">
       <div class="vid">
+        <div class="vid-placeholder">
+          <h2>9/5/2013 Video Coming Soon</h2>
+        </div>
+      </div>
+      <div class="write-up">
+        <h2>Highlights: <em>9/5/2013 Scrimmage</em></h2>
+        <ul>
+          <li>29 Yard Field Goal</li>
+          <li>One PAT</li>
+          <li>Three Touchbacks</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="weekly-highlights">
+      <div class="vid">
         <iframe width="480" height="270" src="//www.youtube.com/embed/videoseries?list=PLidCjvFoClTdM4UIfQo_hTkhP74kmQcXz" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="write-up">
@@ -11,8 +27,8 @@
         <ul>
           <li>37 yard field goal from the left hash</li>
           <li>41 yard field goal from the right hash</li>
-          <li>Several extra points</li>
-          <li>A couple of punts</li>
+          <li>Three PAT's </li>
+          <li>Two punts</li>
         </ul>
       </div>
     </div>

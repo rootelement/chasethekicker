@@ -24,9 +24,11 @@
   <table>
     <thead>
       <tr>
-        <th>Week</th>
+        <th>Date</th>
+        <th class="opponent">Opponent</th>
+        <th class="location">Location</th>
         <th>Kickoffs</th>
-        <th>Kickff Yards</th>
+        <th>Kickoff Yards</th>
         <th>FG Attemps</th>
         <th>FGs Made</th>
         <th>PAT Attempts</th>
@@ -35,7 +37,9 @@
     </thead>
     <tbody>
       <tr>
-        <td>One</td>
+        <td>9/14</td>
+        <td class="opponent">Platt Tech</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -44,7 +48,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Two</td>
+        <td>9/21</td>
+        <td class="opponent">New London</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -53,7 +59,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Three</td>
+        <td>9/28</td>
+        <td class="opponent">Wolcott Tech</td>
+        <td class="location">Away</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -62,7 +70,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Four</td>
+        <td>10/5</td>
+        <td class="opponent">Putnam</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -71,7 +81,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Five</td>
+        <td>10/12</td>
+        <td class="opponent">Bullard Havens</td>
+        <td class="location">Away</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -80,7 +92,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Six</td>
+        <td>10/19</td>
+        <td class="opponent">Abott Tech</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -89,7 +103,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Seven</td>
+        <td>10/25</td>
+        <td class="opponent">Vinal Tech</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -98,7 +114,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Eight</td>
+        <td>11/2</td>
+        <td class="opponent">Wilcox Tech</td>
+        <td class="location">Away</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -107,7 +125,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Nine</td>
+        <td>11/9</td>
+        <td class="opponent">O'Brien Tech</td>
+        <td class="location">Home</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -116,7 +136,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Ten</td>
+        <td>11/15</td>
+        <td class="opponent">Cheney Tech</td>
+        <td class="location">Away</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -125,7 +147,9 @@
         <td>--</td>
       </tr>
       <tr>
-        <td>Eleven</td>
+        <td>11/23</td>
+        <td class="opponent">Prince Tech</td>
+        <td class="location">Away</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
@@ -136,6 +160,8 @@
       <tfoot>
         <tr>
           <td>Totals</td>
+          <td>--</td>
+          <td>--</td>
           <td>--</td>
           <td>--</td>
           <td>--</td>

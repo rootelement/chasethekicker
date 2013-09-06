@@ -40,5 +40,9 @@
 
       <?php include('includes/action-items.php') ?>
     </div>
+    <div class="tertiary-content">
+      <h2 class="call-out">Camp History</h2>
+      <div id="map"></div>
+    </div>
   </div>
 <?php include('includes/footer.php') ?>

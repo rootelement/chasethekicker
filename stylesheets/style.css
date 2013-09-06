@@ -158,7 +158,7 @@ body {
   clear: none;
 }
 
-/* line 45, ../sass/partials/_grid.sass */
+/* line 46, ../sass/partials/_grid.sass */
 #stats .col-1 {
   width: 24.21053%;
   float: left;
@@ -166,7 +166,7 @@ body {
   margin-left: 0%;
   clear: none;
 }
-/* line 47, ../sass/partials/_grid.sass */
+/* line 48, ../sass/partials/_grid.sass */
 #stats .col-2 {
   width: 24.21053%;
   float: left;
@@ -174,7 +174,7 @@ body {
   margin-left: 25.26316%;
   clear: none;
 }
-/* line 49, ../sass/partials/_grid.sass */
+/* line 50, ../sass/partials/_grid.sass */
 #stats .col-3 {
   width: 24.21053%;
   float: left;
@@ -182,7 +182,7 @@ body {
   margin-left: 50.52632%;
   clear: none;
 }
-/* line 51, ../sass/partials/_grid.sass */
+/* line 52, ../sass/partials/_grid.sass */
 #stats .col-4 {
   width: 24.21053%;
   float: right;
@@ -191,7 +191,7 @@ body {
   clear: none;
 }
 
-/* line 53, ../sass/partials/_grid.sass */
+/* line 54, ../sass/partials/_grid.sass */
 .primary-content {
   width: 53.68421%;
   float: left;
@@ -207,7 +207,7 @@ body {
   border-color: #dedfde;
 }
 
-/* line 61, ../sass/partials/_grid.sass */
+/* line 62, ../sass/partials/_grid.sass */
 .secondary-content {
   width: 41.05263%;
   float: right;
@@ -216,12 +216,32 @@ body {
   clear: none;
   overflow: hidden;
 }
-/* line 64, ../sass/partials/_grid.sass */
+/* line 65, ../sass/partials/_grid.sass */
 .secondary-content .action-items {
   margin-top: 0.75em;
 }
 
-/* line 66, ../sass/partials/_grid.sass */
+/* line 67, ../sass/partials/_grid.sass */
+.tertiary-content {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin-top: 3em;
+  clear: both;
+}
+/* line 71, ../sass/partials/_grid.sass */
+.tertiary-content #map {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  height: 300px;
+}
+
+/* line 74, ../sass/partials/_grid.sass */
 footer {
   width: 100%;
   float: right;
@@ -233,7 +253,7 @@ footer {
   overflow: hidden;
   padding-bottom: 6em;
 }
-/* line 72, ../sass/partials/_grid.sass */
+/* line 80, ../sass/partials/_grid.sass */
 footer .email {
   width: 28.42105%;
   float: left;
@@ -241,7 +261,7 @@ footer .email {
   margin-left: 0%;
   clear: none;
 }
-/* line 74, ../sass/partials/_grid.sass */
+/* line 82, ../sass/partials/_grid.sass */
 footer .twitter {
   width: 32.63158%;
   float: left;
@@ -249,7 +269,7 @@ footer .twitter {
   margin-left: 29.47368%;
   clear: none;
 }
-/* line 76, ../sass/partials/_grid.sass */
+/* line 84, ../sass/partials/_grid.sass */
 footer .copyright {
   width: 41.05263%;
   float: right;
@@ -423,6 +443,13 @@ a:active {
 }
 
 /* line 62, ../sass/partials/_typography.sass */
+.gomapMarker span {
+  font-size: 0.8125em;
+  line-height: 1.53846em;
+  line-height: 0.875em;
+}
+
+/* line 66, ../sass/partials/_typography.sass */
 #main-content a, footer a {
   color: #c05205;
 }
@@ -826,7 +853,7 @@ table tr:nth-child(2n) td {
   text-align: center;
 }
 /* line 19, ../sass/partials/_tables.sass */
-#stats th:first-child {
+#stats th:first-child, #stats th.opponent, #stats th.location {
   text-align: left;
 }
 /* line 21, ../sass/partials/_tables.sass */
@@ -836,7 +863,7 @@ table tr:nth-child(2n) td {
   color: #777777;
 }
 /* line 24, ../sass/partials/_tables.sass */
-#stats td:first-child {
+#stats td:first-child, #stats td.opponent, #stats td.location {
   text-align: left;
 }
 /* line 28, ../sass/partials/_tables.sass */
@@ -845,4 +872,20 @@ table tr:nth-child(2n) td {
   font-weight: bold;
   border-bottom: #c05205 3px solid;
   color: #444444;
+}
+
+/* line 1, ../sass/partials/_video.sass */
+.vid-placeholder {
+  height: 270px;
+  width: 480px;
+  background-color: #dedfde;
+  text-align: center;
+}
+/* line 6, ../sass/partials/_video.sass */
+.vid-placeholder h2 {
+  line-height: 270px !important;
+  padding: 0;
+  margin: 0;
+  color: white !important;
+  text-shadow: 0 0 1px #777777;
 }
